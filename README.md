@@ -2,6 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+main route :
+- /products
+
 First, run the development server:
 
 ```bash
@@ -10,6 +13,11 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+```
+
+also run json-server for fake api
+```
+json-server -w db.json -p 5000
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
